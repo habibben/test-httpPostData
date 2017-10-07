@@ -1,4 +1,4 @@
+fr/maison/main/controller/UserController.class
 fr/maison/main/Application.class
-controller/UserController.class
-dao/IUserRepository.class
-entites/User.class
+fr/maison/main/entites/User.class
+fr/maison/main/dao/IUserRepository.class

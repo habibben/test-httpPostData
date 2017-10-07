@@ -7,5 +7,8 @@
 
     <artifactId>ui</artifactId>
 
+    <parent>
+
+    </parent>
 
 </project>

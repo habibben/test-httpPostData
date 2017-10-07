@@ -1,23 +1,22 @@
 package fr.maison.main.entites;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "USER")
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
     private int id;
+
+    @Column(name = "NAME")
     private String name;
+
+    @Column(name = "MAIL")
     private String mail;
 
-    public User(String name, String mail) {
-        this.name = name;
-        this.mail = mail;
-    }
 
     public User() {
     }

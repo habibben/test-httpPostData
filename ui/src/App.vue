@@ -31,6 +31,7 @@ export default {
   },
   methods: {
       submit() {
+          debugger;
         this.$http.post('http://localhost:8080/saveUser', this.user)
                 .then(response => {
                     console.log(response);
